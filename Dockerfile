@@ -47,6 +47,5 @@ ENV PARALLEL_JOBS 1
 
 ADD run.sh run.sh
 ADD backup.sh backup.sh
-ADD restore.sh restore.sh
 
 CMD ["sh", "run.sh"]

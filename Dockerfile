@@ -13,7 +13,6 @@ RUN go mod init github.com/itbm/postgresql-backup-s3 \
 	&& go build -o out/go-cron
 
 FROM alpine:3.22
-LABEL maintainer="ITBM"
 
 RUN apk update \
 	&& apk upgrade \
